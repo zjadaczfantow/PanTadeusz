@@ -1,25 +1,161 @@
-<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Pan Tadeusz</title>
-	</head>
-	<body>
-		<h1>Pan Tadeusz, czyli Ostatni zajazd na Litwie: Historia szlachecka z roku 1811 i 1812 we dwunastu księgach wierszem.</h1>
-		<p>Spis treści</p>
-		<ul>
-			<li><a href="./k1.html">Księga 1</a></li>
-			<li><a href="./k2.html">Księga 2</a></li>
-			<li><a href="./k3.html">Księga 3</a></li>
-			<li><a href="./k4.html">Księga 4</a></li>
-			<li><a href="./k5.html">Księga 5</a></li>
-			<li><a href="./k6.html">Księga 6</a></li>
-			<li><a href="./k7.html">Księga 7</a></li>
-			<li><a href="./k8.html">Księga 8</a></li>
-			<li><a href="./k9.html">Księga 9</a></li>
-			<li><a href="./k10.html">Księga 10</a></li>
-			<li><a href="./k11.html">Księga 11</a></li>
-			<li><a href="./k12.html">Księga 12</a></li>
-		</ul>
-	</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="pt.css">
+
+    <title>Pan Tadeusz</title>
+
+    <style>
+      #headd {
+    background-color: #111;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.content {
+    margin-left: 20px;
+    float: left;
+}
+
+.btn-group-vertical {
+  float:left;
+  width:303px;
+}
+
+.btn {
+  height: 63px;
+}
+
+.ad {
+  float:left;
+}
+
+#myFrame {
+  float:left;
+  text-align: left;
+  height: 736px;
+}
+
+    </style>
+    <script>
+      function openK1()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "k1.html";
+      }
+      function openK2()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K2.html";
+      }
+      function openK3()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K3.html";
+      }
+      function openK4()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K4.html";
+      }
+      function openK5()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K5.html";
+      }
+      function openK6()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K6.html";
+      }
+      function openK7()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K7.html";
+      }
+      function openK8()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K8.html";
+      }
+      function openK9()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K9.html";
+      }
+      function openK10()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K10.html";
+      }
+      function openK11()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K11.html";
+      }
+      function openK12()
+      {
+      var omyFrame = document.getElementById("myFrame");
+      omyFrame.style.display="block";
+      omyFrame.src = "K12.html";
+      }
+
+
+    </script>
+  </head>
+    <body>
+  
+        <div id="headd">Księgi Pana Tadeusza</div>
+
+
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-dark" onclick="openK1()">Księga I</button>
+            <button type="button" class="btn btn-dark" onclick="openK2()">Księga II</button>
+            <button type="button" class="btn btn-dark" onclick="openK3()">Księga III</button>
+            <button type="button" class="btn btn-dark" onclick="openK4()">Księga IV</button>
+            <button type="button" class="btn btn-dark" onclick="openK5()">Księga V</button>
+            <button type="button" class="btn btn-dark" onclick="openK6()">Księga VI</button>
+            <button type="button" class="btn btn-dark" onclick="openK7()">Księga VII</button>
+            <button type="button" class="btn btn-dark" onclick="openK8()">Księga VIII</button>
+            <button type="button" class="btn btn-dark" onclick="openK9()">Księga IX</button>
+            <button type="button" class="btn btn-dark" onclick="openK10()">Księga X</button>
+            <button type="button" class="btn btn-dark" onclick="openK11()">Księga XI</button>
+            <button type="button" class="btn btn-dark" onclick="openK12()">Księga XII</button>
+        </div>
+
+          <div class="content">
+            <iframe src="k1.html" style="width:1000px;" id="myFrame"></iframe>
+          </div>
+
+          <div class="ad">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Pan_Tadeusz_-_Ksiega_2_1.JPG/196px-Pan_Tadeusz_-_Ksiega_2_1.JPG" />
+          <br />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Pan_Tadeusz_-_Ksiega_4_2.JPG/195px-Pan_Tadeusz_-_Ksiega_4_2.JPG" />
+          <br />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Pan_Tadeusz_-_Ksiega_3_2.JPG/196px-Pan_Tadeusz_-_Ksiega_3_2.JPG" />
+          
+          </div>
+
+
+    </body>
 </html>
