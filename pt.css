@@ -1,8 +1,23 @@
-#headd {
+body
+{
+  /* Background pattern from subtlepatterns.com */
+  background-image: url("tlo.png");
+}
+
+# container
+{
+  width: 1500;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headd
+{
 background-color: #111;
 color: white;
 height: 50px;
 font-size: 30px;
+font-weight: 700;
 text-align: center;
 }
 
@@ -14,7 +29,7 @@ float: left;
 
 .btn-group-vertical {
 float:left;
-width:303px;
+width: 163px;
 }
 
 .btn {
