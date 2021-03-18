@@ -1,0 +1,32 @@
+#headd {
+background-color: #111;
+color: white;
+height: 50px;
+font-size: 30px;
+text-align: center;
+}
+
+
+.content {
+margin-left: 20px;
+float: left;
+}
+
+.btn-group-vertical {
+float:left;
+width:303px;
+}
+
+.btn {
+height: 63px;
+}
+
+.ad {
+float:left;
+}
+
+#myFrame {
+float:left;
+text-align: left;
+height: 736px;
+}
